@@ -20,7 +20,6 @@ with open('./data/info.csv', 'r') as csvfile:
         cursor.execute(cadena_sql)
 
 conn.commit()
-cursor.close()
 
 # cerrar el enlace a la base de datos (recomendado)
 cursor.close()
